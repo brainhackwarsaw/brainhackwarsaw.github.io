@@ -453,11 +453,6 @@ html { box-sizing: border-box; }
 .text-orange a { color: #fab125; }
 .bg-orange     { background-color: #fab125 !important; }
 
-.border-turquoise { border-color: #0fbfcf !important; }
-.text-turquoise   { color: #0fbfcf; }
-.text-turquoise a { color: #0fbfcf; }
-.bg-turquoise     { background-color: #0fbfcf !important; }
-
 .border-darkred { border-color: #940a3d !important; }
 .text-darkred   { color: #940a3d; }
 .text-darkred a { color: #940a3d; }
@@ -477,6 +472,31 @@ html { box-sizing: border-box; }
 .text-darkblue   { color: #240563; }
 .text-darkblue a { color: #240563; }
 .bg-darkblue     { background-color: #240563 !important; }
+
+.border-turquoise { border-color: #1abc9c !important; }
+.text-turquoise   { color: #1abc9c; }
+.text-turquoise a { color: #1abc9c; }
+.bg-turquoise     { background-color: #1abc9c !important; }
+
+.border-emerald { border-color: #2ecc71 !important; }
+.text-emerald   { color: #2ecc71; }
+.text-emerald a { color: #2ecc71; }
+.bg-emerald     { background-color: #2ecc71 !important; }
+
+.border-peteriver { border-color: #3498db !important; }
+.text-peteriver   { color: #3498db; }
+.text-peteriver a { color: #3498db; }
+.bg-peteriver     { background-color: #3498db !important; }
+
+.border-amethyst { border-color: #9b59b6 !important; }
+.text-amethyst   { color: #9b59b6; }
+.text-amethyst a { color: #9b59b6; }
+.bg-amethyst     { background-color: #9b59b6 !important; }
+
+.border-wetasphalt { border-color: #34495e !important; }
+.text-wetasphalt   { color: #34495e; }
+.text-wetasphalt a { color: #34495e; }
+.bg-wetasphalt     { background-color: #34495e !important; }
 
 
 img {
