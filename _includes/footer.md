@@ -1,8 +1,4 @@
-
-
-Design by Tim O'Brien [t413.com](http://t413.com/)
+Site made by [Daniel Borek](#borek)
 &mdash;
-[SinglePaged theme](https://github.com/t413/SinglePaged)
-&mdash;
-this site is [open source]({{ site.source_link }})
+using [SinglePaged theme](https://github.com/t413/SinglePaged)
 
