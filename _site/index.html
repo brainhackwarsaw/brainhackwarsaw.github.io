@@ -6,35 +6,72 @@
   <title>AoN Brainhack Warsaw 2017</title>
 	<meta name="keywords" content="brainhack, hackaton, neuroscience, warsaw, cognitive science, fMRI, modelling, simulations,open science">
 	<meta name="description" content="Satellite event for  Aspects of Neuroscience conference">
-  <link rel="stylesheet" href="combo.css">
+
+  <meta property="og:title" content="AoN Brainhack Warsaw 2017" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://www.cesium.di.uminho.pt/codeweek15" />
+  <meta property="og:image" content="http://www.cesium.di.uminho.pt/codeweek15/img/og-image.png" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+  <link rel="stylesheet" href="stylesheets/combo.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
   <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.8/slick-theme.css"/>
   
 	
+  
 </head>
 <body>
+  <div id="main">
 
- <div id="main">
-
-    <nav><ul>
+    <nav>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="right fa fa-bars"></i></a>
+      <ul class="hide-on-med-and-down">
       
-        <li class="border-turquoise"><a href="#home">Home</a></li>
+        
+        <li class="p-home"><a href="#home">Home</a></li>
       
-        <li class="border-emerald"><a href="#venue">Venue</a></li>
+        
+        <li class="p-venue"><a href="#venue">Venue</a></li>
       
-        <li class="border-peteriver"><a href="#projects">Projects</a></li>
+        
+        <li class="p-projects"><a href="#projects">Projects</a></li>
       
-        <li class="border-amethyst"><a href="#registration">Registration</a></li>
+        
+        <li class="p-register"><a href="#register">Registration</a></li>
       
-        <li class="border-wetasphalt"><a href="#committee">committee</a></li>
+        
+        <li class="p-about"><a href="#about">committee</a></li>
       
-    </ul></nav>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+      
+        
+        <li class="p-home"><a href="#home">Home</a></li>
+      
+        
+        <li class="p-venue"><a href="#venue">Venue</a></li>
+      
+        
+        <li class="p-projects"><a href="#projects">Projects</a></li>
+      
+        
+        <li class="p-register"><a href="#register">Registration</a></li>
+      
+        
+        <li class="p-about"><a href="#about">committee</a></li>
+      
+      </ul>
+    </nav>
 
 
     
-      <div id="home" class="section bg-turquoise">
+      
+      <div id="home" class="section p-home">
         
-        <div class="container text-black ">
+        <div class="container ">
           <h1>The call for proposals for the AoN Brainhack Warsaw 2017 is now open!</h1>
 
 <p>On the weekend of <strong>18-19th November 2017</strong>, the first edition of <strong>AoN Brainhack Warsaw</strong> will take place. During this two-day event dedicated to students and PhD students, we will work in teams on <strong>neuroscience-related projects</strong>.</p>
@@ -58,9 +95,10 @@ Participation in the conference is not mandatory to take part in Brainhack but w
         </div>
       </div>
     
-      <div id="venue" class="section bg-emerald">
+      
+      <div id="venue" class="section p-venue">
         
-        <div class="container text-black ">
+        <div class="container ">
           <h1>Venue</h1>
 
 <p>Brainhack will take place at the  <strong>University of Warsaw, Faculty of Physics, Pasteura 5, 02-093 Warsaw, Poland</strong>. Additional information how to get to Warsaw and university campus  can be found at the <a href="http://neuroaspects.org/getting-to-warsaw-and-faculty-of-biology">AoN website</a>.</p>
@@ -73,9 +111,10 @@ Participation in the conference is not mandatory to take part in Brainhack but w
         </div>
       </div>
     
-      <div id="projects" class="section bg-peteriver">
+      
+      <div id="projects" class="section p-projects">
         
-        <div class="container text-black ">
+        <div class="container ">
           <h1>Projects</h1>
 
 <p>At the moment, <strong>the call for project proposals is open</strong>. The proposals can include various forms of a group activity, e.g., data analysis, app development, a discussion club on a particular topic, developing a software etc. The organizers will provide a few openly available datasets to the project authors, but developing projects using private datasets is also welcome.</p>
@@ -189,9 +228,10 @@ If you are new to Python, this <a href="http://www.southampton.ac.uk/~fangohr/te
         </div>
       </div>
     
-      <div id="registration" class="section bg-amethyst">
+      
+      <div id="register" class="section p-register">
         
-        <div class="container text-black ">
+        <div class="container ">
           <h1>Register</h1>
 
 <p>Please send the project proposals before 01.09.2017 to the mailing address: <a href="mailto:brainhackwarsaw@gmail.com">brainhackwarsaw@gmail.com</a></p>
@@ -204,9 +244,10 @@ If you are new to Python, this <a href="http://www.southampton.ac.uk/~fangohr/te
         </div>
       </div>
     
-      <div id="committee" class="section bg-wetasphalt">
+      
+      <div id="about" class="section p-about">
         
-        <div class="container text-white ">
+        <div class="container ">
           <h1>Who we are</h1>
 
 <p>The AoN Brainhack Warsaw 2017 committee:</p>
@@ -235,8 +276,10 @@ If you are new to Python, this <a href="http://www.southampton.ac.uk/~fangohr/te
     </div>
   </div>
 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="site.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
 
 </body>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="site.js"></script>
 </html>
