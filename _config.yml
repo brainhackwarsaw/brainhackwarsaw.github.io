@@ -19,7 +19,7 @@ title: AoN Brainhack Warsaw 2017
 keywords: brainhack, hackaton, neuroscience, warsaw, cognitive science, fMRI, modelling, simulations,open science
 description: Satellite event for  Aspects of Neuroscience conference
 #source_link:
-#favicon:
+favicon: img/favicon.ico
 #touch_icon:
 #google_analytics_key:
 
@@ -45,6 +45,8 @@ colors:
   green:     '#9bcf2f'
   purple:    '#c869bf'
   orange:    '#fab125'
+
+  aongreen: '#1C7439'
 #  turquoise: '#0fbfcf'
   darkred:   '#940a3d'
   limegreen: '#82940a'

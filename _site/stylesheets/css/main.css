@@ -93,6 +93,11 @@ html { box-sizing: border-box; }
 .text-orange a { color: #fab125; }
 .bg-orange     { background-color: #fab125 !important; }
 
+.border-aongreen { border-color: #1C7439 !important; }
+.text-aongreen   { color: #1C7439; }
+.text-aongreen a { color: #1C7439; }
+.bg-aongreen     { background-color: #1C7439 !important; }
+
 .border-darkred { border-color: #940a3d !important; }
 .text-darkred   { color: #940a3d; }
 .text-darkred a { color: #940a3d; }
