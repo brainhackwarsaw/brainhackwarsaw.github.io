@@ -36,7 +36,7 @@
 	body {
 		line-height: 1; }
 	ol, ul {
-		list-style: none; }
+		list-style: square outside; }
 	blockquote, q {
 		quotes: none; }
 	blockquote:before, blockquote:after,
@@ -100,7 +100,7 @@
 /* #Lists
 ================================================== */
 	ul, ol { margin-bottom: 20px; }
-	ul { list-style: none outside; }
+	ul { list-style: square outside; }
 	ol { list-style: decimal; }
 	ul, ul.square { list-style: square outside; }
 	ul ul, ul.circle { list-style: circle outside; }
