@@ -678,17 +678,6 @@ html { box-sizing: border-box; }
   #main #intro .activity { border-color:  }
   #main #intro .section-lines { border-color:  }
 
-  
-  
-  
-  
-  nav .p-intro { border-color: #0a9461; }
-  #intro { background-color: #0a9461 !important; color: #eee; }
-  #intro a { color: #eee; }
-  #intro .sectiondivider { color: #0a9461; }
-  #main #intro .activity { border-color:  }
-  #main #intro .section-lines { border-color:  }
-
 
 
 /* ----- code, syntax highlighting, etc ----- */
