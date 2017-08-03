@@ -145,12 +145,12 @@ html { box-sizing: border-box; }
   
   
   
-  nav .p-about { border-color: #34495e; }
-  #about { background-color: #34495e !important; color: #eee; }
-  #about a { color: #eee; }
-  #about .sectiondivider { color: #34495e; }
-  #main #about .activity { border-color:  }
-  #main #about .section-lines { border-color:  }
+  nav .p-comitee { border-color: #34495e; }
+  #comitee { background-color: #34495e !important; color: #eee; }
+  #comitee a { color: #eee; }
+  #comitee .sectiondivider { color: #34495e; }
+  #main #comitee .activity { border-color:  }
+  #main #comitee .section-lines { border-color:  }
 
   
   
@@ -189,12 +189,23 @@ html { box-sizing: border-box; }
   
   
   
-  nav .p-home { border-color: #1abc9c; }
-  #home { background-color: #1abc9c !important; color: #eee; }
-  #home a { color: #eee; }
-  #home .sectiondivider { color: #1abc9c; }
-  #main #home .activity { border-color:  }
-  #main #home .section-lines { border-color:  }
+  nav .p-about { border-color: #1abc9c; }
+  #about { background-color: #1abc9c !important; color: #eee; }
+  #about a { color: #eee; }
+  #about .sectiondivider { color: #1abc9c; }
+  #main #about .activity { border-color:  }
+  #main #about .section-lines { border-color:  }
+
+  
+  
+  
+  
+  nav .p-intro { border-color: #0a9461; }
+  #intro { background-color: #0a9461 !important; color: #eee; }
+  #intro a { color: #eee; }
+  #intro .sectiondivider { color: #0a9461; }
+  #main #intro .activity { border-color:  }
+  #main #intro .section-lines { border-color:  }
 
 
 
