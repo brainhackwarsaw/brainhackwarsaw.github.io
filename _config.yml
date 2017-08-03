@@ -20,6 +20,7 @@ keywords: brainhack, hackaton, neuroscience, warsaw, cognitive science, fMRI, mo
 description: Satellite event for  Aspects of Neuroscience conference. The call for proposals for the AoN Brainhack Warsaw 2017 is now open!
 #source_link:
 favicon: img/favicon.ico
+baseurl: https://brainhackwarsaw.github.io
 #touch_icon:
 #google_analytics_key:
 
