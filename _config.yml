@@ -22,7 +22,7 @@ description: Satellite event for  Aspects of Neuroscience conference. The call f
 favicon: img/favicon.ico
 url: https://brainhackwarsaw.github.io
 #touch_icon:
-#google_analytics_key:
+google_analytics_key: 9UA-104097157-1
 
 
 ### template colors, used site-wide via css ###
