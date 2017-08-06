@@ -17,6 +17,43 @@ html *
 }
 
 
+li, ul {
+    list-style: square outside;
+}
+
+ol { list-style: decimal; }
+
+
+.profile-card {
+    margin: 7% auto 0;
+    width: 36%;
+    text-align: center;
+}
+
+.profile-card, header {
+    overflow: hidden;
+}
+
+header a {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+header img {
+    width: 200px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px dashed #fff;
+  }
+
+
+.fa-vc{line-height:inherit!important;}
+
+
 
 /* =============================================================================
    SPEAKER
@@ -52,3 +89,5 @@ html *
 .speakers-item p {
   font-size: 1.4em;
 }
+
+
