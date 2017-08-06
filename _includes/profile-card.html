@@ -1,0 +1,9 @@
+<aside class="profile-card {% if include.column %} {{ include.column }}{% endif %}">
+   <header>
+   <img src="{{ include.avatarurl }}">
+    <h5>{{ include.profilename }}{% if include.homepage %}<a href="{{ include.homepage }}"><i class="fa fa-home" style="text-indent:0px;"></i></a>{% endif %}{% if include.twitter %} <a href="https://twitter.com/{{ include.twitter }}"><i class="fa fa-twitter" style="text-indent:0px;"></i></a> {% endif %}{% if include.git %} <a href="https://github.com/{{ include.git }}"><i class="fa fa-github" style="text-indent:0px;"></i></a>{% endif %}</h5>
+    <h6> {{ include.affiliation }}</h6>
+   </header>
+</aside>
+
+

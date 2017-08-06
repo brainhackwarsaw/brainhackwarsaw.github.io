@@ -37,7 +37,9 @@ colors:
   peteriver : '#3498db'
   amethyst  : '#9b59b6'
   wetasphalt : '#34495e'
+  red: '#F44336'
 ### choose matarial design colors from http://materialuicolors.co/
+
 
 kramdown:
   auto_ids:  false

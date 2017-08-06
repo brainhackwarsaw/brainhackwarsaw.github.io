@@ -18,3 +18,37 @@ html *
 
 
 
+/* =============================================================================
+   SPEAKER
+   ========================================================================== */
+.speakers-item {
+  position: relative;
+  min-height: 180px;
+  padding-left: 180px;
+  margin-bottom: 30px;
+  border-bottom: 1px dashed #e7e7e7;
+}
+.speaker-photo {
+/*  
+
+  display: block;
+  width: 120px;
+  height: 120px;
+*/
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+}
+.speech-title {
+  padding-top: 10px;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.speakers-name {
+  font-size: 1.6em;
+}
+.speakers-item p {
+  font-size: 1.4em;
+}
