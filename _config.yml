@@ -31,6 +31,7 @@ twitter_description: The call for proposals for the AoN Brainhack Warsaw 2017 is
 colors:
 
   aongreen: '#1C7439'
+  white:     '#eee'
 ### flat  design colors from https://www.materialui.co/flatuicolors
   turquoise: '#1abc9c'
   emerald   : '#2ecc71'

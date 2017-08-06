@@ -479,6 +479,11 @@ html { box-sizing: border-box; }
 .text-aongreen a { color: #1C7439; }
 .bg-aongreen     { background-color: #1C7439 !important; }
 
+.border-white { border-color: #eee !important; }
+.text-white   { color: #eee; }
+.text-white a { color: #eee; }
+.bg-white     { background-color: #eee !important; }
+
 .border-turquoise { border-color: #1abc9c !important; }
 .text-turquoise   { color: #1abc9c; }
 .text-turquoise a { color: #1abc9c; }
@@ -517,8 +522,8 @@ html { box-sizing: border-box; }
   
   
   nav .p-comitee { border-color: #F44336; }
-  #comitee { background-color: #F44336 !important; color: white; }
-  #comitee a { color: white; }
+  #comitee { background-color: #F44336 !important; color: #eee; }
+  #comitee a { color: #eee; }
   #comitee .sectiondivider { color: #F44336; }
   #main #comitee .activity { border-color:  }
   #main #comitee .section-lines { border-color:  }
@@ -528,8 +533,8 @@ html { box-sizing: border-box; }
   
   
   nav .p-register { border-color: #9b59b6; }
-  #register { background-color: #9b59b6 !important; color: white; }
-  #register a { color: white; }
+  #register { background-color: #9b59b6 !important; color: #eee; }
+  #register a { color: #eee; }
   #register .sectiondivider { color: #9b59b6; }
   #main #register .activity { border-color:  }
   #main #register .section-lines { border-color:  }
@@ -539,8 +544,8 @@ html { box-sizing: border-box; }
   
   
   nav .p-projects { border-color: #3498db; }
-  #projects { background-color: #3498db !important; color: white; }
-  #projects a { color: white; }
+  #projects { background-color: #3498db !important; color: #eee; }
+  #projects a { color: #eee; }
   #projects .sectiondivider { color: #3498db; }
   #main #projects .activity { border-color:  }
   #main #projects .section-lines { border-color:  }
@@ -550,8 +555,8 @@ html { box-sizing: border-box; }
   
   
   nav .p-venue { border-color: #2ecc71; }
-  #venue { background-color: #2ecc71 !important; color: white; }
-  #venue a { color: white; }
+  #venue { background-color: #2ecc71 !important; color: #eee; }
+  #venue a { color: #eee; }
   #venue .sectiondivider { color: #2ecc71; }
   #main #venue .activity { border-color:  }
   #main #venue .section-lines { border-color:  }
@@ -561,8 +566,8 @@ html { box-sizing: border-box; }
   
   
   nav .p-about { border-color: #1abc9c; }
-  #about { background-color: #1abc9c !important; color: white; }
-  #about a { color: white; }
+  #about { background-color: #1abc9c !important; color: #eee; }
+  #about a { color: #eee; }
   #about .sectiondivider { color: #1abc9c; }
   #main #about .activity { border-color:  }
   #main #about .section-lines { border-color:  }
@@ -572,8 +577,8 @@ html { box-sizing: border-box; }
   
   
   nav .p-intro { border-color: #1C7439; }
-  #intro { background-color: #1C7439 !important; color: white; }
-  #intro a { color: white; }
+  #intro { background-color: #1C7439 !important; color: #eee; }
+  #intro a { color: #eee; }
   #intro .sectiondivider { color: #1C7439; }
   #main #intro .activity { border-color:  }
   #main #intro .section-lines { border-color:  }
