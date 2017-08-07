@@ -6,7 +6,7 @@ safe: false
 
 
 ### site serving configuration ###
-exclude: [CNAME, README.md, .gitignore]
+exclude: [CNAME, README.md, .gitignore,archive]
 permalink: /:title ## disables post output
 timezone: null
 lsi: false
@@ -16,47 +16,31 @@ highlighter: rouge
 
 ### content configuration ###
 title: AoN Brainhack Warsaw 2017
-keywords: brainhack, hackaton, neuroscience, warsaw, cognitive science, fMRI, modelling, simulations,open science
-description: Satellite event for  Aspects of Neuroscience conference. The call for proposals for the AoN Brainhack Warsaw 2017 is now open!
+keywords: brainhack, hackaton, neuroscience, warsaw, cognitive science, fMRI, modelling, simulations, open science
+description: Bring your ideas on open, reproducible neuroscience related projects to AoN Brainhack Warsaw 2017! The call for proposals for is now open! Brainhack Warsaw is an official satellite event for Aspects of Neuroscience conference.
 #source_link:
-favicon: img/favicon.ico
+#favicon: favicon.png?
+url: https://brainhackwarsaw.github.io
 #touch_icon:
-#google_analytics_key:
+google_analytics_key: UA-104097157-1
+twitter_description: The call for proposals for the AoN Brainhack Warsaw 2017 is now open!
 
 
 ### template colors, used site-wide via css ###
-### template colors, used site-wide via css ###
+
 colors:
-  white:        '#eaeaea'
-  intro:        '#428bca' 
-  activities:   '#ed7950'
-  saturday-one: '#66b266'
-  monday:       '#5ea06e'
-  tuesday:      '#578e77'
-  wednesday:    '#4f7c80'
-  thursday:     '#486a89'
-  friday:       '#415992'
-  saturday-two: '#39479b'
-  contacts:     '#3035A4'
-  black:     '#111111'
-  white:     '#eee'
-  offwhite:  '#f8f8f8'
-  blue:      '#49a7e9'
-  green:     '#9bcf2f'
-  purple:    '#c869bf'
-  orange:    '#fab125'
 
   aongreen: '#1C7439'
-#  turquoise: '#0fbfcf'
-  darkred:   '#940a3d'
-  limegreen: '#82940a'
-  softgreen: '#0a9461'
-  darkblue:  '#240563'
+  white:     '#eee'
+### flat  design colors from https://www.materialui.co/flatuicolors
   turquoise: '#1abc9c'
   emerald   : '#2ecc71'
   peteriver : '#3498db'
   amethyst  : '#9b59b6'
   wetasphalt : '#34495e'
+  red: '#F44336'
+### choose matarial design colors from http://materialuicolors.co/
+
 
 kramdown:
   auto_ids:  false
