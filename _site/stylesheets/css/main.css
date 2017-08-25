@@ -77,6 +77,17 @@ html { box-sizing: border-box; }
   
   
   
+  nav .p-schedule { border-color: #eee; }
+  #schedule { background-color: #eee !important; color: black; }
+  #schedule a { color: black; }
+  #schedule .sectiondivider { color: #eee; }
+  #main #schedule .activity { border-color:  }
+  #main #schedule .section-lines { border-color:  }
+
+  
+  
+  
+  
   nav .p-projects { border-color: #3498db; }
   #projects { background-color: #3498db !important; color: #eee; }
   #projects a { color: #eee; }
