@@ -996,7 +996,7 @@ div#profile-container figcaption {
 }
 
 
-
+/* 
 table{
     border-collapse: collapse;
     border-spacing: 0;
@@ -1009,6 +1009,14 @@ th{
 
 td{
     border:1px solid #000000;
+}
+*/
+
+table { border-collapse: collapse; }
+tr { border: none; }
+td {
+  border-right: solid 1px white; 
+  border-left: solid 1px white;
 }
 
 
@@ -1083,7 +1091,7 @@ div#profile-container figcaption {
 }
 
 
-
+/* 
 table{
     border-collapse: collapse;
     border-spacing: 0;
@@ -1096,6 +1104,14 @@ th{
 
 td{
     border:1px solid #000000;
+}
+*/
+
+table { border-collapse: collapse; }
+tr { border: none; }
+td {
+  border-right: solid 1px white; 
+  border-left: solid 1px white;
 }
 
 /*
