@@ -995,8 +995,20 @@ div#profile-container figcaption {
   text-align: center; 
 }
 
-table {
+
+
+table{
     border-collapse: collapse;
+    border-spacing: 0;
+    border:2px solid #000000;
+}
+
+th{
+    border:2px solid #000000;
+}
+
+td{
+    border:1px solid #000000;
 }
 
 
@@ -1070,8 +1082,20 @@ div#profile-container figcaption {
   text-align: center; 
 }
 
-table {
+
+
+table{
     border-collapse: collapse;
+    border-spacing: 0;
+    border:2px solid #000000;
+}
+
+th{
+    border:2px solid #000000;
+}
+
+td{
+    border:1px solid #000000;
 }
 
 /*
