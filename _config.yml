@@ -39,6 +39,9 @@ colors:
   amethyst  : '#9b59b6'
   wetasphalt : '#34495e'
   red: '#F44336'
+
+  cyan: '#1ba1e2'
+  cobalt: '#0050ef'
 ### choose matarial design colors from http://materialuicolors.co/
 
 

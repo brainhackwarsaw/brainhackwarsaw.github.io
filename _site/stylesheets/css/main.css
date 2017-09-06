@@ -48,6 +48,16 @@ html { box-sizing: border-box; }
 .text-red a { color: #F44336; }
 .bg-red     { background-color: #F44336 !important; }
 
+.border-cyan { border-color: #1ba1e2 !important; }
+.text-cyan   { color: #1ba1e2; }
+.text-cyan a { color: #1ba1e2; }
+.bg-cyan     { background-color: #1ba1e2 !important; }
+
+.border-cobalt { border-color: #0050ef !important; }
+.text-cobalt   { color: #0050ef; }
+.text-cobalt a { color: #0050ef; }
+.bg-cobalt     { background-color: #0050ef !important; }
+
 
 /* ----- per-post colors! ----- */
 
@@ -88,12 +98,23 @@ html { box-sizing: border-box; }
   
   
   
-  nav .p-projects { border-color: #3498db; }
-  #projects { background-color: #3498db !important; color: #eee; }
+  nav .p-projects { border-color: #0050ef; }
+  #projects { background-color: #0050ef !important; color: #eee; }
   #projects a { color: #eee; }
-  #projects .sectiondivider { color: #3498db; }
+  #projects .sectiondivider { color: #0050ef; }
   #main #projects .activity { border-color:  }
   #main #projects .section-lines { border-color:  }
+
+  
+  
+  
+  
+  nav .p-speakers { border-color: #1ba1e2; }
+  #speakers { background-color: #1ba1e2 !important; color: #eee; }
+  #speakers a { color: #eee; }
+  #speakers .sectiondivider { color: #1ba1e2; }
+  #main #speakers .activity { border-color:  }
+  #main #speakers .section-lines { border-color:  }
 
   
   
