@@ -7,6 +7,9 @@ li, ul {
 ol { list-style: decimal; }
 
 
+
+
+
 .profile-card {
     margin: 7% auto 0;
     width: 36%;
@@ -33,6 +36,8 @@ header img {
     border: 1px dashed #fff;
 
   }
+
+
 
 .profile-card .fa {
     display: inline;
