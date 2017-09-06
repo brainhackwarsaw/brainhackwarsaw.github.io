@@ -34,6 +34,9 @@ header img {
 
   }
 
+.profile-card .fa {
+    display: inline;
+}
 
 .speaker-card {
     margin: 7% auto 0;
@@ -61,6 +64,10 @@ header img {
     border: 1px dashed #fff;
 
   }
+
+.speaker-card .fa {
+    display: inline;
+}
 
 
 * { box-sizing: border-box;padding:10px; font-family: Avenir; }
@@ -119,3 +126,7 @@ td {
   border-right: solid 1px white; 
   border-left: solid 1px white;
 }
+
+
+.h5 .fa { display:inline; }
+.h6 .fa { display:inline; }
