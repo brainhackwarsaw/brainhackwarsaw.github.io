@@ -511,7 +511,7 @@ One of the interesting questions in behavioral neuroscience is how humans evalua
 <h4>Authors: Anastasia Osoianu / Charl Linssen <a href="mailto:charl@turingbirds.com"><i class="fa fa-envelope"></i></a> / Katja Heuer / Roberto Toro</h4>
 
 <p><strong>Abstract:</strong>
-Polarized light imaging (PLI) as well as the tractography of high angular resolution diffusion weighted imaging (DWI) data reveal a gross white matter (WM) geometry of striking regularity[<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>,<sup id="fnref:3"><a href="#fn:3" class="footnote">2</a></sup>]. This makes the neuroanatomist wonder whether it would be possible to generate a connectome based exclusively on a small set of hypotheses:</p>
+Polarized light imaging (PLI) as well as the tractography of high angular resolution diffusion weighted imaging (DWI) data reveal a gross white matter (WM) geometry of striking regularity[[^1],[^3]]. This makes the neuroanatomist wonder whether it would be possible to generate a connectome based exclusively on a small set of hypotheses:</p>
 
 <ul>
   <li>more than 90% of white matter connections are cortico­cortical</li>
@@ -521,29 +521,20 @@ Polarized light imaging (PLI) as well as the tractography of high angular resolu
 How much of a real brain connectome would be recovered by such a simple and reductionistic model?</li>
 </ul>
 
-<p>We propose to approach this question in the simple case of a 2D coronal slice. We use methods inspired by swarm intelligence[<sup id="fnref:2"><a href="#fn:2" class="footnote">3</a></sup>], and simulate a dynamical system where particles are instantiated at the gray matter/white matter boundary. The particles are allowed to propagate within the white matter mask, following simple rules that reflect the above list of hypotheses. After reaching a steady state, the white matter orientation distribution is reconstructed on a voxel-by-voxel basis, for each individual voxel based on the statistics of the particle paths crossing it. This is roughly the opposite of streamline tractography, where paths are sampled based on a distribution map. By implementing derived measures such as an anisotropy index, the resulting map can be quantitatively compared to empirical data. We are especially interested in multimodal effects that occur e.g. when two fibre bundles cross. We will validate our model on coronal slices of the vervet monkey, as an excellent empirical dataset is available [<sup id="fnref:3:1"><a href="#fn:3" class="footnote">2</a></sup>]. Proof­ of­ concept code is available via GitHub[<sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>].</p>
+<p>We propose to approach this question in the simple case of a 2D coronal slice. We use methods inspired by swarm intelligence <a href="[http://www.red3d.com/cwr/boids/">[2]</a>, and simulate a dynamical system where particles are instantiated at the gray matter/white matter boundary. The particles are allowed to propagate within the white matter mask, following simple rules that reflect the above list of hypotheses. After reaching a steady state, the white matter orientation distribution is reconstructed on a voxel-by-voxel basis, for each individual voxel based on the statistics of the particle paths crossing it. This is roughly the opposite of streamline tractography, where paths are sampled based on a distribution map. By implementing derived measures such as an anisotropy index, the resulting map can be quantitatively compared to empirical data. We are especially interested in multimodal effects that occur e.g. when two fibre bundles cross. We will validate our model on coronal slices of the vervet monkey, as an excellent empirical dataset is available <a href="http://microdraw.pasteur.fr/microdraw.html?source=/vervet/vervet.json">[3]</a>. Proof­ of­ concept code is available via GitHub<a href="https://github.com/aniv0s/FakeTensorImaging">[4]</a>.</p>
 
 <p><img src="/img/projects/project5.jpg?style=centerme" alt="image-title-here" class="img-responsive" height="80%" width="80%" align="center" /></p>
 
 <p><em>Fig. Visualization of a DTI measurement of a human brain. Depicted are reconstructed fiber tracts that run through the mid-sagittal plane (source: Thomas Schultz, Wikipedia).</em></p>
 
 <p><strong>A list of 1-5 key papers/materials summarising the subject:</strong></p>
-<div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p>Frontier Research Topic “Wiring Principles of Cerebral Cortex” — <a href="http://journal.frontiersin.org/researchtopic/168/wiring-principles-of-cerebral-cortex#articles">http://journal.frontiersin.org/researchtopic/168/wiring-principles-of-cerebral-cortex#articles</a>&nbsp;<a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:3">
-      <p>Vervet monkey brain slice scanned using Polarized Light Imaging — <a href="http://microdraw.pasteur.fr/microdraw.html?source=/vervet/vervet.json">http://microdraw.pasteur.fr/microdraw.html?source=/vervet/vervet.json</a>&nbsp;<a href="#fnref:3" class="reversefootnote">&#8617;</a>&nbsp;<a href="#fnref:3:1" class="reversefootnote">&#8617;<sup>2</sup></a></p>
-    </li>
-    <li id="fn:2">
-      <p>Craig Reynolds’ “Boids” — <a href="">http://www.red3d.com/cwr/boids/</a>http://www.red3d.com/cwr/boids/]&nbsp;<a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:4">
-      <p> <a href="https://github.com/aniv0s/FakeTensorImaging">https://github.com/aniv0s/FakeTensorImaging</a>&nbsp;<a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
+
+<ol>
+  <li>Frontier Research Topic “Wiring Principles of Cerebral Cortex” — <a href="http://journal.frontiersin.org/researchtopic/168/wiring-principles-of-cerebral-cortex#articles">http://journal.frontiersin.org/researchtopic/168/wiring-principles-of-cerebral-cortex#articles</a></li>
+  <li>Craig Reynolds’ “Boids” — <a href="">http://www.red3d.com/cwr/boids/</a>http://www.red3d.com/cwr/boids/]</li>
+  <li>Vervet monkey brain slice scanned using Polarized Light Imaging — <a href="http://microdraw.pasteur.fr/microdraw.html?source=/vervet/vervet.json">http://microdraw.pasteur.fr/microdraw.html?source=/vervet/vervet.json</a></li>
+  <li>Github repo <a href="https://github.com/aniv0s/FakeTensorImaging">https://github.com/aniv0s/FakeTensorImaging</a></li>
+</ol>
 
 <p><strong>A list of requirements for taking part in the project:</strong></p>
 
