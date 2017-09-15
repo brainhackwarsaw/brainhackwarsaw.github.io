@@ -33,12 +33,12 @@ Functional connectivity (FC) research has become one of the leading concepts use
 
 <p><img src="/img/projects/project1.png?style=centerme" alt="test image size" class="img-responsive" height="80%" width="80%" align="center" /></p>
 
-<p><em>Fig.1. different types of networks. A: a social network (Facebook); B: correlations on the stock exchange (106 companies listed at NASDAQ-100); C: a gene co-expression network (image adapted from http://wikipedia.org on CC BY-SA 3.0 license); D: large scale resting state networks in the brain (image adapted from Smith et al, 2009)</em></p>
+<p><em>Fig.1. Different types of networks. A: a social network (Facebook); B: correlations on the stock exchange (106 companies listed at NASDAQ-100); C: a gene co-expression network (image adapted from http://wikipedia.org on CC BY-SA 3.0 license); D: large scale resting state networks in the brain (image adapted from Smith et al, 2009)</em></p>
 
 <p><strong>A list of 1-5 key papers/materials summarising the subject</strong>:</p>
 <ol>
   <li><a href="http://www.scholarpedia.org/article/Brain_connectivity">http://www.scholarpedia.org/article/Brain_connectivity</a></li>
-  <li><a href="http://journal.frontiersin.org/article/10.3389/fnsys.2015.00175/full">http://journal.frontiersin.org/article/10.3389/fnsys.2015.00175/full</a></li>
+  <li><a href="http://journal.frontiersin.org/article/10.3389/fnsys.2015.00175/full">Bastos, A. M., &amp; Schoffelen, J. M. (2015). A tutorial review of functional connectivity analysis methods and their interpretational pitfalls. Frontiers in systems neuroscience, 9.</a></li>
   <li>A. K. Enge, C. Gerloff,C. C. Hilgetag and G. Nolte (2013). Intrinsic Coupling Modes: Multiscale Interactions in Ongoing Brain Activity. Neuron 80 (4): 867–86</li>
   <li>M. Bola and V. Borchardt (2016). Cognitive Processing Involves Dynamic Reorganization of the Whole-Brain Network’s Functional Community Structure. Journal of Neuroscience 36 (13): 3633–5</li>
 </ol>
@@ -98,7 +98,7 @@ Functional connectivity (FC) research has become one of the leading concepts use
 </ol>
 
 <p>Additionally, take a look at <a href="http://p.migdal.pl/2017/04/30/teaching-deep-learning.html">http://p.migdal.pl/2017/04/30/teaching-deep-learning.html</a>.
-If you are new to Python, this <a href="http://www.southampton.ac.uk/~fangohr/teaching/python/book.html">book</a>  may be relevant.</p>
+If you are new to Python, this <a href="http://www.southampton.ac.uk/~fangohr/teaching/python/book.html" title="Python for Computational Science and Engineering">book</a>  may be relevant.</p>
 
 <p><strong>A list of requirements for taking part in the project</strong>:</p>
 <ul>
@@ -238,7 +238,7 @@ One of the interesting questions in behavioral neuroscience is how humans evalua
 <h4>Authors: Anastasia Osoianu / Charl Linssen <a href="mailto:charl@turingbirds.com"><i class="fa fa-envelope"></i></a> / Katja Heuer / Roberto Toro</h4>
 
 <p><strong>Abstract:</strong>
-Polarized light imaging (PLI) as well as the tractography of high angular resolution diffusion weighted imaging (DWI) data reveal a gross white matter (WM) geometry of striking regularity<a href="http://journal.frontiersin.org/researchtopic/168/wiring-principles-of-cerebral-cortex#articles">[1]</a>,[[3]](http://microdraw.pasteur.fr/microdraw.html?source=/vervet/vervet.json](http://microdraw.pasteur.fr/microdraw.html?source=/vervet/vervet.json). This makes the neuroanatomist wonder whether it would be possible to generate a connectome based exclusively on a small set of hypotheses:</p>
+Polarized light imaging (PLI) as well as the tractography of high angular resolution diffusion weighted imaging (DWI) data reveal a gross white matter (WM) geometry of striking regularity<a href="http://journal.frontiersin.org/researchtopic/168/wiring-principles-of-cerebral-cortex#articles" title="Frontier Research Topic &quot;Wiring Principles of Cerebral Cortex&quot;">[1]</a>,<a href="http://microdraw.pasteur.fr/microdraw.html?source=/vervet/vervet.json](http://microdraw.pasteur.fr/microdraw.html?source=/vervet/vervet.json" title="Vervet monkey brain slice scanned using Polarized Light Imaging">[3]</a>. This makes the neuroanatomist wonder whether it would be possible to generate a connectome based exclusively on a small set of hypotheses:</p>
 
 <ul>
   <li>more than 90% of white matter connections are cortico­cortical</li>
@@ -249,7 +249,7 @@ Polarized light imaging (PLI) as well as the tractography of high angular resolu
 
 <p>How much of a real brain connectome would be recovered by such a simple and reductionistic model?</p>
 
-<p>We propose to approach this question in the simple case of a 2D coronal slice. We use methods inspired by swarm intelligence <a href="[http://www.red3d.com/cwr/boids/">[2]</a>, and simulate a dynamical system where particles are instantiated at the gray matter/white matter boundary. The particles are allowed to propagate within the white matter mask, following simple rules that reflect the above list of hypotheses. After reaching a steady state, the white matter orientation distribution is reconstructed on a voxel-by-voxel basis, for each individual voxel based on the statistics of the particle paths crossing it. This is roughly the opposite of streamline tractography, where paths are sampled based on a distribution map. By implementing derived measures such as an anisotropy index, the resulting map can be quantitatively compared to empirical data. We are especially interested in multimodal effects that occur e.g. when two fibre bundles cross. We will validate our model on coronal slices of the vervet monkey, as an excellent empirical dataset is available <a href="http://microdraw.pasteur.fr/microdraw.html?source=/vervet/vervet.json">[3]</a>. Proof­ of­ concept code is available via GitHub<a href="https://github.com/aniv0s/FakeTensorImaging">[4]</a>.</p>
+<p>We propose to approach this question in the simple case of a 2D coronal slice. We use methods inspired by swarm intelligence <a href="[http://www.red3d.com/cwr/boids/" title="Craig Reynolds' &quot;Boids&quot;">[2]</a>, and simulate a dynamical system where particles are instantiated at the gray matter/white matter boundary. The particles are allowed to propagate within the white matter mask, following simple rules that reflect the above list of hypotheses. After reaching a steady state, the white matter orientation distribution is reconstructed on a voxel-by-voxel basis, for each individual voxel based on the statistics of the particle paths crossing it. This is roughly the opposite of streamline tractography, where paths are sampled based on a distribution map. By implementing derived measures such as an anisotropy index, the resulting map can be quantitatively compared to empirical data. We are especially interested in multimodal effects that occur e.g. when two fibre bundles cross. We will validate our model on coronal slices of the vervet monkey, as an excellent empirical dataset is available <a href="http://microdraw.pasteur.fr/microdraw.html?source=/vervet/vervet.json" title="Vervet monkey brain slice scanned using Polarized Light Imaging">[3]</a>. Proof­ of­ concept code is available via GitHub<a href="https://github.com/aniv0s/FakeTensorImaging">[4]</a>.</p>
 
 <p><img src="/img/projects/project5.jpg?style=centerme" alt="image-title-here" class="img-responsive" height="80%" width="80%" align="center" /></p>
 
