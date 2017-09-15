@@ -43,9 +43,8 @@ ol li { list-style: decimal; }
 
 header a {
     display: inline-block;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
-
 header {
     margin-bottom: 10px;
 }
