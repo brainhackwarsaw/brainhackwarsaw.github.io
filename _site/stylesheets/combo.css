@@ -950,16 +950,37 @@ nav ul li:hover, nav ul li.active {
   }
 }
 
-
-
-li, ul {
-    list-style: square outside;
+img[src$="centerme"] {
+  display:block;
+  margin: 0 auto;
 }
 
-ol { list-style: decimal; }
+ul { 
+   list-style-type: disc; 
+   list-style-position: inside; 
+}
+ol { 
+   list-style-type: decimal; 
+   list-style-position: inside; 
+}
+ul ul, ol ul { 
+   list-style-type: circle; 
+   list-style-position: inside; 
+   margin-left: 15px; 
+}
+ol ol, ul ol { 
+   list-style-type: lower-latin; 
+   list-style-position: inside; 
+   margin-left: 15px; 
+}
 
 
+ol li { list-style: decimal; }
 
+
+ ul li{
+    list-style: square inside;
+}
 
 
 .profile-card {
@@ -981,7 +1002,7 @@ header {
     margin-bottom: 10px;
 }
 
-header img {
+.profile-card header img {
     width: 200px;
     border-radius: 50%;
     padding: 5px;
@@ -991,9 +1012,39 @@ header img {
 
 
 
-.profile-card .fa {
+.advisory-card .fa {
     display: inline;
 }
+
+
+.advisory-card {
+    margin: 7% auto 0;
+    width: 36%;
+    text-align: center;
+}
+
+.advisory-card, header {
+    overflow: hidden;
+}
+
+.advisory-card  header a {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.advisory-card header {
+    margin-bottom: 10px;
+}
+
+.advisory-card header img {
+    width: 160px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px dashed #fff;
+
+  }
+
+
 
 .speaker-card {
     margin: 7% auto 0;
@@ -1005,16 +1056,16 @@ header img {
     overflow: hidden;
 }
 
-header a {
+  header a {
     display: inline-block;
     margin-bottom: 30px;
 }
 
-header {
+ header {
     margin-bottom: 10px;
 }
 
-header img {
+ header img {
     width: 250px;
     border-radius: 50%;
     padding: 5px;
@@ -1088,16 +1139,37 @@ td {
 .h5 .fa { display:inline; }
 .h6 .fa { display:inline; }
 
-
-
-li, ul {
-    list-style: square outside;
+img[src$="centerme"] {
+  display:block;
+  margin: 0 auto;
 }
 
-ol { list-style: decimal; }
+ul { 
+   list-style-type: disc; 
+   list-style-position: inside; 
+}
+ol { 
+   list-style-type: decimal; 
+   list-style-position: inside; 
+}
+ul ul, ol ul { 
+   list-style-type: circle; 
+   list-style-position: inside; 
+   margin-left: 15px; 
+}
+ol ol, ul ol { 
+   list-style-type: lower-latin; 
+   list-style-position: inside; 
+   margin-left: 15px; 
+}
 
 
+ol li { list-style: decimal; }
 
+
+ ul li{
+    list-style: square inside;
+}
 
 
 .profile-card {
@@ -1119,7 +1191,7 @@ header {
     margin-bottom: 10px;
 }
 
-header img {
+.profile-card header img {
     width: 200px;
     border-radius: 50%;
     padding: 5px;
@@ -1129,9 +1201,39 @@ header img {
 
 
 
-.profile-card .fa {
+.advisory-card .fa {
     display: inline;
 }
+
+
+.advisory-card {
+    margin: 7% auto 0;
+    width: 36%;
+    text-align: center;
+}
+
+.advisory-card, header {
+    overflow: hidden;
+}
+
+.advisory-card  header a {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.advisory-card header {
+    margin-bottom: 10px;
+}
+
+.advisory-card header img {
+    width: 160px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px dashed #fff;
+
+  }
+
+
 
 .speaker-card {
     margin: 7% auto 0;
@@ -1143,16 +1245,16 @@ header img {
     overflow: hidden;
 }
 
-header a {
+  header a {
     display: inline-block;
     margin-bottom: 30px;
 }
 
-header {
+ header {
     margin-bottom: 10px;
 }
 
-header img {
+ header img {
     width: 250px;
     border-radius: 50%;
     padding: 5px;
