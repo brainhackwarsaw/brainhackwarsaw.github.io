@@ -1138,6 +1138,10 @@ td {
 .h5 .fa { display:inline; }
 .h6 .fa { display:inline; }
 
+
+
+
+
 img[src$="centerme"] {
   display:block;
   margin: 0 auto;
@@ -1325,6 +1329,10 @@ td {
 
 .h5 .fa { display:inline; }
 .h6 .fa { display:inline; }
+
+
+
+
 
 /*
  *  Academicons 1.8.0 by James Walsh - https://github.com/jpswalsh
