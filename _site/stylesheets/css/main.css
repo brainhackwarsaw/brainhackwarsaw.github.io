@@ -48,6 +48,11 @@ html { box-sizing: border-box; }
 .text-red a { color: #F44336; }
 .bg-red     { background-color: #F44336 !important; }
 
+.border-pink { border-color: #ff80ab !important; }
+.text-pink   { color: #ff80ab; }
+.text-pink a { color: #ff80ab; }
+.bg-pink     { background-color: #ff80ab !important; }
+
 .border-cyan { border-color: #1ba1e2 !important; }
 .text-cyan   { color: #1ba1e2; }
 .text-cyan a { color: #1ba1e2; }
@@ -57,6 +62,21 @@ html { box-sizing: border-box; }
 .text-cobalt   { color: #0050ef; }
 .text-cobalt a { color: #0050ef; }
 .bg-cobalt     { background-color: #0050ef !important; }
+
+.border-blueibro { border-color: #051d9b !important; }
+.text-blueibro   { color: #051d9b; }
+.text-blueibro a { color: #051d9b; }
+.bg-blueibro     { background-color: #051d9b !important; }
+
+.border-blueblue { border-color: #2942C !important; }
+.text-blueblue   { color: #2942C; }
+.text-blueblue a { color: #2942C; }
+.bg-blueblue     { background-color: #2942C !important; }
+
+.border-azul { border-color: #1760E4 !important; }
+.text-azul   { color: #1760E4; }
+.text-azul a { color: #1760E4; }
+.bg-azul     { background-color: #1760E4 !important; }
 
 
 /* ----- per-post colors! ----- */
@@ -71,6 +91,17 @@ html { box-sizing: border-box; }
   #comitee .sectiondivider { color: #F44336; }
   #main #comitee .activity { border-color:  }
   #main #comitee .section-lines { border-color:  }
+
+  
+  
+  
+  
+  nav .p-sponsors { border-color: #1760E4; }
+  #sponsors { background-color: #1760E4 !important; color: #eee; }
+  #sponsors a { color: #eee; }
+  #sponsors .sectiondivider { color: #1760E4; }
+  #main #sponsors .activity { border-color:  }
+  #main #sponsors .section-lines { border-color:  }
 
   
   
@@ -193,13 +224,8 @@ hr {
 .center { text-align: center; }
 .left, .container .left { text-align: left; }
 
-.container h1, .container h2, .container h3{
+.container h1, .container h2, .container h3, .container h4 {
   margin-bottom: 20px;
-  text-align: center;
-  padding: 0 4%;
-}
-
-.container h4 {
   text-align: center;
   padding: 0 4%;
 }
