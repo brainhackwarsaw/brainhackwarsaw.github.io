@@ -19,7 +19,7 @@ $.extend($.easing,
 
     $.fn.navScroller = function(options) {
         settings = $.extend({
-            scrollToOffset: 0, // previously: 170
+            scrollToOffset: 40, // previously: 170
             scrollSpeed: 800,
             activateParentNode: true,
         }, options );
