@@ -1,2 +1,1 @@
- <i class="fa fa-angle-left" ></i><i class="fa fa-angle-right" ></i>  by [Daniel Borek](#borek) on [SinglePaged theme](https://github.com/t413/SinglePaged)
-
+ <i class="fa fa-angle-left" ></i><i class="fa fa-angle-right" ></i>  by [Daniel Borek](https://github.com/danieltomasz), Karolina Baranowska and [Aleksander Molak](https://github.com/AlxndrMlk) on [SinglePaged theme](https://github.com/t413/SinglePaged)
