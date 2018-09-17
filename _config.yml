@@ -10,7 +10,7 @@ timezone: null
 lsi: false
 markdown: kramdown
 highlighter: rouge
-baseurl
+#baseurl
 
 
 ### content configuration ###
@@ -20,7 +20,7 @@ description: Participate in open, reproducible neuroscience related projects to 
 #source_link:
 #favicon: favicon.png?
 url: https://brainhackwarsaw.github.io
-baseurl: /brainhackwarsaw
+#baseurl: /brainhackwarsaw
 #touch_icon:
 google_analytics_key: UA-104097157-1
 twitter_description: The registration for projects for the AoN Brainhack Warsaw 2019 is will be open soon!
