@@ -1,5 +1,3 @@
----
-
 port: 4000
 host: 0.0.0.0
 safe: false
@@ -56,4 +54,4 @@ kramdown:
 sass:
   sass_dir: stylesheets/_sass/
 
-#theme: jekyll-theme-merlot
+theme: jekyll-theme-merlot
