@@ -55,5 +55,5 @@ kramdown:
 
 sass:
   sass_dir: stylesheets/_sass/
-  
+
 theme: jekyll-theme-merlot
