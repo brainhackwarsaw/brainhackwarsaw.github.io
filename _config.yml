@@ -12,7 +12,7 @@ timezone: null
 lsi: false
 markdown: kramdown
 highlighter: rouge
-baseurl
+#baseurl
 
 
 ### content configuration ###
