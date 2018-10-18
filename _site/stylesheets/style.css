@@ -102,6 +102,8 @@
   #main .activity .activity-info .activity-title {
     font-weight: 700;
     margin-top: 10px; }
+  #main .activity .activity-info .activity-names {
+    margin-top: 0px; }
   #main .activity .activity-info .activity-time, #main .activity .activity-info .activity-place {
     margin-top: 0px; }
   #main .activity .activity-info .activity-desc {
