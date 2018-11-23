@@ -38,15 +38,15 @@ colors:
   aongreen: '#1C7439'
   white:     '#eee'
 ### flat  design colors from https://www.materialui.co/flatuicolors
-  turquoise: '#1abc9c'
-  emerald   : '#2ecc71'
+  turquoise: '#1ea8a1'
+  emerald   : '#208c32'
   peteriver : '#3498db'
   amethyst  : '#9b59b6'
   wetasphalt : '#34495e'
-  red: '#F44336'
+  red: '#ffc107'
 
   cyan: '#1ba1e2'
-  cobalt: '#0050ef'
+  cobalt: '#355068'
 ### choose matarial design colors from http://materialuicolors.co/
 
 
