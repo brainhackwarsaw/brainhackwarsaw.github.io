@@ -1,5 +1,5 @@
 ---
-title: "committee"
+title: Manifesto
 bg: fuchsia
 color: white
 
