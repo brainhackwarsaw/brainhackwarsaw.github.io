@@ -32,6 +32,8 @@ twitter_description: The call for proposals for the Brainhack Warsaw 2019 is now
 
 colors:
 
+  main_gray: '#37334a'
+  main_yellow: '#f8e71c'
   aongreen: '#1C7439'
   white:     '#eee'
 ### flat  design colors from https://www.materialui.co/flatuicolors
