@@ -39,7 +39,7 @@ colors:
   white:     '#eee'
 ### flat  design colors from https://www.materialui.co/flatuicolors
   turquoise_: '#05a7a1' #'#0f9e9e'
-  emerald   : '#1ac182'
+  emerald   : '#00cb87'
   peteriver : '#3498db'
   amethyst  : '#9768c6' #'#9215a5'
   wetasphalt : '#34495e'
