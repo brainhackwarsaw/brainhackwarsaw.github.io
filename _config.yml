@@ -34,12 +34,12 @@ colors:
 
   main_white: '#ffffff'
   main_gray: '#37334a'
-  main_yellow: '#ffe52' #'#f8e71c'
+  main_yellow: '#ffe572' #'#f8e71c'
   aongreen: '#1C7439'
   white:     '#eee'
 ### flat  design colors from https://www.materialui.co/flatuicolors
   turquoise_: '#05a7a1' #'#0f9e9e'
-  emerald   : '#1adb78'
+  emerald   : '#1ac182'
   peteriver : '#3498db'
   amethyst  : '#6d68c6' #'#9215a5'
   wetasphalt : '#34495e'
