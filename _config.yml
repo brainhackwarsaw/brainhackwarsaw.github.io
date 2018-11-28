@@ -34,21 +34,21 @@ colors:
 
   main_white: '#ffffff'
   main_gray: '#37334a'
-  main_yellow: '#ffe54e' #'#f8e71c'
+  main_yellow: '#ffe52' #'#f8e71c'
   aongreen: '#1C7439'
   white:     '#eee'
 ### flat  design colors from https://www.materialui.co/flatuicolors
   turquoise_: '#05a7a1' #'#0f9e9e'
-  emerald   : '#208c32'
+  emerald   : '#2ecc71'
   peteriver : '#3498db'
-  amethyst  : '#6d24a7' #'#9215a5'
+  amethyst  : '#6d68c6' #'#9215a5'
   wetasphalt : '#34495e'
-  red: '#ef1f39' #'#ffc107'
+  red: '#ff1f3e' #'#ffc107'
   light_green: '#c0fff0'
-  fuchsia: '#b12a78' #'#b20077'
+  fuchsia: '#ff5eb1' #'#b20077'
 
   cyan: '#24a7ea' #'#2f8dbc'
-  cobalt: '#495eac' #'#355068'
+  cobalt: '#586dc6' #'#355068'
 ### choose matarial design colors from http://materialuicolors.co/
 
 
