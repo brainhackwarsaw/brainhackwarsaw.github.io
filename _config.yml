@@ -34,7 +34,7 @@ colors:
 
   main_white: '#ffffff'
   main_gray: '#37334a'
-  main_yellow: '#ffe572' #'#f8e71c'
+  main_yellow: '#ffea63' #'#f8e71c'
   aongreen: '#1C7439'
   white:     '#eee'
 ### flat  design colors from https://www.materialui.co/flatuicolors
