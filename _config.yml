@@ -34,7 +34,7 @@ colors:
 
   main_white: '#ffffff'
   main_gray: '#37334a'
-  main_yellow: '#ffef34' #'#f8e71c'
+  main_yellow: '#f8e71c' #'#ffef34'
   aongreen: '#1C7439'
   white:     '#eee'
   darkblue: '#000060'
@@ -42,15 +42,15 @@ colors:
   turquoise_: '#05a7a1' #'#0f9e9e'
   emerald   : '#00cb87'
   peteriver : '#3498db'
-  amethyst  : '#9768c6' #'#9215a5'
+  amethyst  : '#9215a5' #'#9768c6'
   wetasphalt : '#34495e'
-  red: '#ff1f3e' #'#ffc107'
+  red: '#ff1f3e'
   light_green: '#c0fff0'
   light_yellow: '#ffffcc'
-  fuchsia: '#ff5eb1' #'#b20077'
+  fuchsia: '#b20077' #'#ff5eb1'
 
-  cyan: '#24a7ea' #'#2f8dbc'
-  cobalt: '#586dc6' #'#355068'
+  cyan: '#2f8dbc' #'#24a7ea'
+  cobalt: '#355068' #'#586dc6'
 ### choose matarial design colors from http://materialuicolors.co/
 
 
