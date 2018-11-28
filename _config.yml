@@ -34,7 +34,7 @@ colors:
 
   main_white: '#ffffff'
   main_gray: '#37334a'
-  main_yellow: 'ffe54e' #'#f8e71c'
+  main_yellow: '#ffe54e' #'#f8e71c'
   aongreen: '#1C7439'
   white:     '#eee'
 ### flat  design colors from https://www.materialui.co/flatuicolors
@@ -43,9 +43,9 @@ colors:
   peteriver : '#3498db'
   amethyst  : '#6d24a7' #'#9215a5'
   wetasphalt : '#34495e'
-  red: 'ef1f39' #'#ffc107'
-  light_green: 'c0fff0'
-  fuchsia: 'b12a78' #'#b20077'
+  red: '#ef1f39' #'#ffc107'
+  light_green: '#c0fff0'
+  fuchsia: '#b12a78' #'#b20077'
 
   cyan: '#2f8dd0' #'#2f8dbc'
   cobalt: '#495eac' #'#355068'
