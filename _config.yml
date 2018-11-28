@@ -46,6 +46,7 @@ colors:
   wetasphalt : '#34495e'
   red: '#ff1f3e' #'#ffc107'
   light_green: '#c0fff0'
+  light_yellow: '#ffffcc'
   fuchsia: '#ff5eb1' #'#b20077'
 
   cyan: '#24a7ea' #'#2f8dbc'
