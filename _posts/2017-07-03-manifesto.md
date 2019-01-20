@@ -8,6 +8,8 @@ color: white
 
 # Manifesto
 
+---
+
 At Brainhack Warsaw we believe that creativity is a key factor of success. We think that science, programming and art are similar in their nature. Art doesn’t care about hierarchy. Nor we do. There are paths yet to be discovered and boundaries yet to be transgressed. Brainhack Warsaw is open for everyone. People from academia, artists, data scientists, physicists, biologists, poets, psychologists, females, males, religious, atheists. There’s only one thing that matters: creativity.
 
 
