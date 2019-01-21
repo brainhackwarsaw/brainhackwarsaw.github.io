@@ -25,7 +25,7 @@ url: https://brainhackwarsaw.github.io
 #baseurl: /brainhackwarsaw
 #touch_icon:
 google_analytics_key: UA-104097157-1
-twitter_description: The call for proposals for the Brainhack Warsaw 2019 is now open!
+twitter_description: The call for participants for the Brainhack Warsaw 2019 is now open!
 
 
 ### template colors, used site-wide via css ###
@@ -61,3 +61,4 @@ sass:
   sass_dir: stylesheets/_sass/
 
 theme: jekyll-theme-merlot
+
