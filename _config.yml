@@ -25,12 +25,10 @@ url: https://brainhackwarsaw.github.io
 #baseurl: /brainhackwarsaw
 #touch_icon:
 google_analytics_key: UA-104097157-1
-twitter_description: The call for participants for the Brainhack Warsaw 2019 is now open!
+twitter_description: Participant registration for the Brainhack Warsaw 2019 is now open!
 
 
-### template colors, used site-wide via css ###
-
-colors:
+### template colors, used site-wide via css ###colors:
 
   main_white: '#ffffff'
   main_gray: '#37334a'
