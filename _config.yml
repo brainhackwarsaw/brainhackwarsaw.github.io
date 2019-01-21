@@ -28,7 +28,9 @@ google_analytics_key: UA-104097157-1
 twitter_description: Participant registration for the Brainhack Warsaw 2019 is now open!
 
 
-### template colors, used site-wide via css ###colors:
+### template colors, used site-wide via css ###
+
+colors:
 
   main_white: '#ffffff'
   main_gray: '#37334a'
@@ -59,4 +61,3 @@ sass:
   sass_dir: stylesheets/_sass/
 
 theme: jekyll-theme-merlot
-
