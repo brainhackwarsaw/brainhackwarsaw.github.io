@@ -133,22 +133,3 @@
 @media screen and (max-width: 525px) {
   #main #contacts .slick-slider .slick-prev, #main #contacts .slick-slider .slick-next {
     display: none !important; } }
-
-<<<<<<< HEAD
-  #2017 {
-=======
-  #bh2017 {
->>>>>>> Adding past editions panel
-      width: 300px;
-      font: verdana;
-      float:left; /* add this */
-      border: 1px solid red;
-  }
-<<<<<<< HEAD
-  #2019 {
-=======
-  #bh2019 {
->>>>>>> Adding past editions panel
-      border: 1px solid green;
-      overflow: hidden; /* if you don't want #second to wrap below #first */
-  }

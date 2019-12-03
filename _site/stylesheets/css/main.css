@@ -246,18 +246,6 @@ hr {
   border-color: ;
 }
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 5px;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 .container { word-wrap: break-word; }
 .center { text-align: center; }
 .left, .container .left { text-align: left; }
