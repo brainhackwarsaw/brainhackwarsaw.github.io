@@ -51,7 +51,9 @@ colors:
 
   cyan: '#2f8dbc' #'#24a7ea'
   cobalt: '#355068' #'#586dc6'
+  ada: '#adaada'
 ### choose matarial design colors from http://materialuicolors.co/
+
 
 
 kramdown:
