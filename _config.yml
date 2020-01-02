@@ -52,6 +52,18 @@ colors:
   cyan: '#2f8dbc' #'#24a7ea'
   cobalt: '#355068' #'#586dc6'
   ada: '#adaada'
+
+  light_cyan: '#80DEEA'
+  light_lime: '#E6EE9C'
+  light_orange: '#FFAB91'
+  light_purple: '#CE93D8'
+  light_pink: '#F48FB1'
+  light_blue: '#90CAF9'
+  light_amber: '#B39DDB'
+  light_deep_purple: '#B39DDB'
+  light_grey: '#B0BEC5'
+
+
 ### choose matarial design colors from http://materialuicolors.co/
 
 
